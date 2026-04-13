@@ -10,8 +10,9 @@ An interactive Power BI dashboard designed to analyze and compare company perfor
 ## 🛠️ Technical Workflow
 
 ### 1. Data Integration & ETL (Power Query)
-* **Data Source:** Processed two separate Excel datasets containing company information from the USA and Europe.
-* **Data Transformation:** * Performed **Data Appending** to combine regional datasets into a unified master table.
+* **Data Source:** Integrated multi-format datasets including **Excel (.xlsx)** and **Text/CSV (.csv)** files containing regional company data.
+* **Data Transformation:** * Performed **Data Appending** to merge the Excel and CSV datasets into a unified master table.
+    * Standardized data types and column structures across different file formats to ensure seamless integration.
     * Cleaned and handled missing values to ensure accurate growth and revenue reporting.
     * Created custom columns and tags to enable regional slicing (USA vs. Europe).
 
@@ -32,6 +33,6 @@ An interactive Power BI dashboard designed to analyze and compare company perfor
 
 ## 🚀 Tools & Technologies
 * **BI Tool:** Microsoft Power BI
-* **Data Processing:** Power Query (Excel Integration)
+* **Data Processing:** Power Query (Excel & CSV Integration)
 * **Visuals:** Advanced Mapping, Combo Charts, and Slicers.
 * **Theme:** Custom Dark Mode UI for enhanced readability.
